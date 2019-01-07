@@ -17,6 +17,8 @@
     <link rel="stylesheet" href="./css/owl.carousel.min.css">
     <link rel="stylesheet" href="./css/owl.theme.default.min.css">
 
+    <link rel="stylesheet" href="./css/lightbox.min.css">
+
     <link rel="stylesheet" href="./css/main.css">
 
 </head>
@@ -33,16 +35,16 @@
                 </div>
                 <div class="menu">
                     <ul>
-                        <li><a href="#home" class="mn-active">Home</a></li>
-                        <li><a href="#services">Services</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#work">Work</a></li>
-                        <li><a href="#team">Team</a></li>
-                        <li><a href="#testimonials">Testimonials</a></li>
-                        <li><a href="#pricing">Pricing</a></li>
-                        <li><a href="#stats">Stats</a></li>
-                        <li><a href="#clients">Clients</a></li>
-                        <li><a href="#contact">Contact</a></li>
+                        <li><a class="navbar-link" href="#home">Home</a></li>
+                        <li><a class="navbar-link" href="#services">Services</a></li>
+                        <li><a class="navbar-link" href="#about">About</a></li>
+                        <li><a class="navbar-link" href="#work">Work</a></li>
+                        <li><a class="navbar-link" href="#team">Team</a></li>
+                        <li><a class="navbar-link" href="#testimonials">Testimonials</a></li>
+                        <li><a class="navbar-link" href="#pricing">Pricing</a></li>
+                        <li><a class="navbar-link" href="#stats">Stats</a></li>
+                        <li><a class="navbar-link" href="#clients">Clients</a></li>
+                        <li><a class="navbar-link" href="#contact">Contact</a></li>
                     </ul>
                 </div>
             </nav>
@@ -146,6 +148,7 @@
     </section>
 
     <div class="clearfix"></div>
+
     <section id="work">
         <div class="content-box">
             <div class="content-title">
@@ -155,42 +158,42 @@
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-sm-6 col-md-4 col-lg-3 work-item">
-                        <a href="./img/work/1.jpg">
+                        <a href="./img/work/1.jpg" data-lightbox="image-work">
                             <img src=".//img/work/1.jpg" alt="...">
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 work-item">
-                        <a href="./img/work/2.jpg">
+                        <a href="./img/work/2.jpg" data-lightbox="image-work">
                             <img src=".//img/work/2.jpg" alt="...">
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 work-item">
-                        <a href="./img/work/3.jpg">
+                        <a href="./img/work/3.jpg" data-lightbox="image-work">
                             <img src=".//img/work/3.jpg" alt="...">
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 work-item">
-                        <a href="./img/work/4.jpg">
+                        <a href="./img/work/4.jpg" data-lightbox="image-work">
                             <img src=".//img/work/4.jpg" alt="...">
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 work-item">
-                        <a href="./img/work/5.jpg">
+                        <a href="./img/work/5.jpg" data-lightbox="image-work">
                             <img src=".//img/work/5.jpg" alt="...">
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 work-item">
-                        <a href="./img/work/6.jpg">
+                        <a href="./img/work/6.jpg" data-lightbox="image-work">
                             <img src=".//img/work/6.jpg" alt="...">
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 work-item">
-                        <a href="./img/work/7.jpg">
+                        <a href="./img/work/7.jpg" data-lightbox="image-work">
                             <img src=".//img/work/7.jpg" alt="...">
                         </a>
                     </div>
                     <div class="col-sm-6 col-md-4 col-lg-3 work-item">
-                        <a href="./img/work/8.jpg">
+                        <a href="./img/work/8.jpg" data-lightbox="image-work">
                             <img src=".//img/work/8.jpg" alt="...">
                         </a>
                     </div>
@@ -211,80 +214,90 @@
                         <div id="id-team-members" class="owl-carousel owl-theme">
                             <div class="team-member">
                                 <div class="member-img">
-                                    <img src="./img/team/team-1.jpg" alt="..." class="img-responsive">
+                                    <a href="./img/team/team-1.jpg" data-lightbox="image-member">
+                                        <img src="./img/team/team-1.jpg" alt="..." class="img-responsive">
+                                    </a>
                                 </div>
                                 <div class="member-info">
                                     <h4>Daniel Watrous </h4>
                                     <p>CEO</p>
 
                                     <div class="member-social">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-google-plus"></i>
+                                        <a href="#" class="member-social-link"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-google-plus-g"></i></a>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="team-member">
                                 <div class="member-img">
-                                    <img src="./img/team/team-2.jpg" alt="..." class="img-responsive">
+                                    <a href="./img/team/team-2.jpg" data-lightbox="image-member">
+                                        <img src="./img/team/team-2.jpg" alt="..." class="img-responsive">
+                                    </a>
                                 </div>
                                 <div class="member-info">
                                     <h4>Sara Smith</h4>
                                     <p>Co-Founder</p>
 
                                     <div class="member-social">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-google-plus"></i>
+                                        <a href="#" class="member-social-link"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-google-plus-g"></i></a>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="team-member">
                                 <div class="member-img">
-                                    <img src="./img/team/team-3.jpg" alt="..." class="img-responsive">
+                                    <a href="./img/team/team-3.jpg" data-lightbox="image-member">
+                                        <img src="./img/team/team-3.jpg" alt="..." class="img-responsive">
+                                    </a>
                                 </div>
                                 <div class="member-info">
                                     <h4>Steve Mike</h4>
                                     <p>Sr. Developer</p>
 
                                     <div class="member-social">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-google-plus"></i>
+                                        <a href="#" class="member-social-link"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-google-plus-g"></i></a>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="team-member">
                                 <div class="member-img">
-                                    <img src="./img/team/team-4.jpg" alt="..." class="img-responsive">
+                                    <a href="./img/team/team-4.jpg" data-lightbox="image-member">
+                                        <img src="./img/team/team-4.jpg" alt="..." class="img-responsive">
+                                    </a>
                                 </div>
                                 <div class="member-info">
                                     <h4>Robert Hinay</h4>
                                     <p>Sr. Designer</p>
 
                                     <div class="member-social">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-google-plus"></i>
+                                        <a href="#" class="member-social-link"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-google-plus-g"></i></a>
                                     </div>
                                 </div>
                             </div>
 
                             <div class="team-member">
                                 <div class="member-img">
-                                    <img src="./img/team/team-5.jpg" alt="..." class="img-responsive">
+                                    <a href="./img/team/team-5.jpg" data-lightbox="image-member">
+                                        <img src="./img/team/team-5.jpg" alt="..." class="img-responsive">
+                                    </a>
                                 </div>
                                 <div class="member-info">
                                     <h4>Mike Tera</h4>
                                     <p>Sales</p>
 
                                     <div class="member-social">
-                                        <i class="fa fa-facebook"></i>
-                                        <i class="fa fa-twitter"></i>
-                                        <i class="fa fa-google-plus"></i>
+                                        <a href="#" class="member-social-link"><i class="fab fa-facebook-f"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-twitter"></i></a>
+                                        <a href="#" class="member-social-link"><i class="fab fa-google-plus-g"></i></a>
                                     </div>
                                 </div>
                             </div>
@@ -450,31 +463,31 @@
                     <div class="col-lg-6">
                         <ul class="footer-menu">
                             <li>
-                                <a href="#home">Home</a>
+                                <a class="navbar-link" href="#home">Home</a>
                                 /
                             </li>
                             <li>
-                                <a href="#services">Services</a>
+                                <a class="navbar-link" href="#services">Services</a>
                                 /
                             </li>
                             <li>
-                                <a href="#work">Work</a>
+                                <a class="navbar-link" href="#work">Work</a>
                                 /
                             </li>
                             <li>
-                                <a href="#team">Team</a>
+                                <a class="navbar-link" href="#team">Team</a>
                                 /
                             </li>
                             <li>
-                                <a href="#testimonials">Testimonials</a>
+                                <a class="navbar-link" href="#testimonials">Testimonials</a>
                                 /
                             </li>
                             <li>
-                                <a href="#pricing">Pricing</a>
+                                <a class="navbar-link" href="#pricing">Pricing</a>
                                 /
                             </li>
                             <li>
-                                <a href="#stats">Stats</a>
+                                <a class="navbar-link" href="#stats">Stats</a>
                                 /
                             </li>
                         </ul>
@@ -494,6 +507,8 @@
     <script src="./js/bootstrap.min.js"></script>
 
     <script src="./js/owl.carousel.min.js"></script>
+
+    <script src="./js/lightbox.min.js"></script>
 
     <script src="./js/script.js"></script>
 

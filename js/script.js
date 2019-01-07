@@ -36,4 +36,15 @@ jQuery(document).ready(function () {
         autoplayHoverPause: false
     });
 
+    $("a.navbar-link").click(function() {
+        if(window.innerWidth <= 1199) {
+            $(".menu").slideToggle();
+        }
+        let target = $(this).attr("href");
+
+        $('html,body').stop().animate({
+          scrollTop: $(target).offset().top - 74
+        }, 600);
+        event.preventDefault();
+      });
 });

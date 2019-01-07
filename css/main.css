@@ -1,5 +1,6 @@
 body {
     font-family: 'Roboto Condensed', sans-serif;
+    position: relative;
 }
 
 .clearfix::after, .clearfix::before {display: block;content: "";}
@@ -86,7 +87,7 @@ header {
 .header-wrapper {
     max-width: 1600px;
     margin: 0 auto;
-    padding: 5px 20px;
+    padding: 10px 20px;
     position: relative;
 }
 
@@ -255,6 +256,9 @@ header {
 }
 
 /* -- work -- */
+#work .content-box {
+    padding-bottom: 0;
+}
 
 .work-item {
     overflow: hidden;
@@ -287,10 +291,21 @@ header {
     color: #34c6d3;
 }
 
-.member-info i {
-    font-size: 18px; /* LỖi */
+.member-info .member-social {
+    margin-top: 15px;
+}
+.member-info .member-social-link {
+    font-size: 18px;
+    padding: 10px;
 }
 
+.member-info .member-social-link i {
+    color: #64707b;
+}
+
+.member-info .member-social-link:hover i {
+    color: #34c6d3;
+}
 /* -- testimonials -- */
 #testimonials-bg {
     background: url(../img/bg-testimonials.jpg) center no-repeat fixed;
@@ -409,9 +424,11 @@ footer {
 }
 /* --  -- */
 #back-to-top {
-    position: absolute;
+    position: fixed;
     bottom: 20px;
-    right: 30px
+    right: 30px;
+    padding: 10px 14px;
+    line-height: 1;
 }
 
 /* -- responsive -- Mobile first -- */
